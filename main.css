@@ -9,3 +9,18 @@ body {
     background-attachment: fixed;
 }
 
+.quote {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+	width: 95%;
+	margin: 3rem 1.5rem auto;
+}
+
+.author {
+	font-family: 'Crimson Text', serif;
+	font-size: 1rem;
+	text-align: center;
+	font-style: italic;
+}
+	
