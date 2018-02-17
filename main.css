@@ -6,20 +6,25 @@ body {
 	background-image: url("assets/freedom.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
-    background-attachment: fixed;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+p {
+	color: #333;
 }
 
 .quote {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2.5rem;
 	text-align: center;
-	width: 95%;
-	margin: 3rem 1.5rem auto;
+	margin: 6.5rem 3rem 2.8rem 3rem;
+	line-height: 1.5;
 }
 
 .author {
 	font-family: 'Crimson Text', serif;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	text-align: center;
 	font-style: italic;
 }
