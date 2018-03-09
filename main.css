@@ -10,6 +10,37 @@ body {
 	background-attachment: fixed;
 }
 
+.lang-list {
+	background-color: gray;
+	padding: .5rem;
+	width: 14.25rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.6;
+}
+
+img {
+	width: 50px;
+	height: 29px;
+	padding: 0 .2rem;
+}
+
+a {
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
 p {
 	color: #333;
 }
@@ -44,7 +75,12 @@ p {
 		margin: 20.5rem 3rem 2.8rem 3rem;
 		line-height: 1.5;
 	}
-}
+	
+	.lang-list {
+		bottom: initial;
+		top: 0;
+		right: 0;
+	}
 
 
 	
