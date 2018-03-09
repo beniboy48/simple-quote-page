@@ -16,10 +16,11 @@ p {
 
 .quote {
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	text-align: center;
-	margin: 6.5rem 3rem 2.8rem 3rem;
-	line-height: 1.5;
+	margin: 4.5rem auto 1.5rem;
+	margin-bottom: 1.5rem;
+	line-height: 1.2;
 }
 
 .author {
@@ -29,20 +30,18 @@ p {
 	font-style: italic;
 }
 
-@media only screen and (max-width: 768px) {
-	.quote {
-		font-size: 1.5rem;
-		margin: 4.5rem auto 1.5rem;
-		margin-bottom: 1.5rem;
-		line-height: 1.2;
-	}
-}
-
-@media only screen and (min-height: 1080px) {
+@media only screen and (min-width: 1024px) {
 	.quote {
 		font-size: 2.5rem;
-		text-align: center;
-		margin: 23.5rem 3rem 2.8rem 3rem;
+		margin: 6.5rem 3rem 2.8rem 3rem;
+		line-height: 1.5;
+	}
+}	
+
+@media only screen and (min-width: 1800px) {
+	.quote {
+		font-size: 2.5rem;
+		margin: 20.5rem 3rem 2.8rem 3rem;
 		line-height: 1.5;
 	}
 }
