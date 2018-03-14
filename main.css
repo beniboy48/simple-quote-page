@@ -3,6 +3,7 @@
 }
 
 body {
+	height: 100%;
 	background-image: url("assets/freedom.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
